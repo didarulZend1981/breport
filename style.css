@@ -187,6 +187,74 @@ body {
 }
 
 
+/* start Play */
+
+.play{
+   
+    padding: 0px;
+    height: 700px;
+}
+.arrow-container {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding: 20px;
+    }
+
+    .arrow {
+      width: 0;
+      height: 0;
+      border-top: 20px solid transparent;
+      border-bottom: 20px solid transparent;
+      border-left: 30px solid;
+    }
+
+    .arrow.orange {
+      border-left-color: orange;
+    }
+
+    .arrow.black {
+      border-left-color: black;
+    }
+
+
+    .arrow-wrapper {
+      display: flex;
+      margin-top: 4px;
+      
+    }
+
+    .arrow-icon {
+      width: 16px;
+      height: 16px;
+      transform: rotate(-45deg);
+      border-right: 4px solid;
+      border-bottom: 4px solid;
+      margin: 0 2px;
+    }
+
+    .arrow-primary {
+      border-color: orange;
+    }
+
+    .arrow-secondary {
+      border-color: #222;
+    }
+
+    .row-right-img{
+         overflow: hidden;
+         border-left: 1px solid black;
+    }
+    .row-right-img img{
+         object-fit: cover;
+    }
+
+/* End Play */
+
+
+
+
+
 .contact-info{
     line-height:.2px;
     font-family: 'Noto Sans Bengali', Arial, sans-serif;
