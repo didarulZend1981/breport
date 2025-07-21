@@ -1,0 +1,234 @@
+
+    .topbar {
+      background-color: #e5e5e5;
+      padding: 5px 15px;
+      font-size: 14px;
+      color: #333;
+    }
+    .social-icons i {
+      margin-left: 10px;
+      color: #111;
+      transition: color 0.3s;
+    }
+    .social-icons i:hover {
+      color: #0b7bc1;
+    }
+        /* Custom Styles */
+    .weather-section {
+      background-color: #f1f1f1;
+      padding: 10px;
+    }
+
+    .logo {
+      font-size: 30px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .ad-section {
+      background-color: #ccc;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    /* .weather-info, .ad-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    } */
+
+    .weather-info {
+      flex: 2;
+    }
+
+    .ad-info {
+      flex: 1;
+      text-align: center;
+    }
+
+    .ad-info img {
+      width: 100%;
+      max-width: 250px;
+      height: auto;
+    }
+
+
+
+
+
+
+
+     .navbar-custom {
+      background-color: #1e7e34; /* Green background */
+    }
+    .navbar-custom .nav-link {
+      color: white !important; /* White text for links */
+    }
+    .navbar-custom .nav-link:hover {
+      color: #f0f0f0; /* Lighter white when hovering */
+    }
+    .navbar-custom .navbar-brand {
+      color: white !important;
+      font-weight: bold;
+    }
+    .navbar-custom .form-control {
+      width: 200px;
+    }
+
+
+    .news-ticker {
+     
+      color: black;
+      /* padding: 10px 0; */
+      font-size: 16px;
+      white-space: nowrap;
+      overflow: hidden;
+      position: relative;
+      width: 84%;
+    }
+
+    .news-ticker ul {
+      display: inline-block;
+      padding-left: 100%; /* Start position for the scrolling effect */
+      animation: ticker 20s linear infinite; /* Infinite scrolling animation */
+    }
+
+    @keyframes ticker {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    .ticker-arrow {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      color:white
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .news-ticker {
+        font-size: 14px; /* Smaller text size for mobile */
+      }
+    }
+
+
+/* gggg */
+
+/* .weather-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+   
+    justify-content: space-between;
+    width: 300px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid;
+}
+
+.weather-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.weather-info h2 {
+    font-size: 18px;
+    color: #2c3e50;
+    margin: 0;
+}
+
+.weather-info p {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin: 5px 0;
+} */
+
+
+.weather-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+   
+    justify-content: space-between;
+    width: 300px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid;
+}
+
+ .nav-container {
+      background-color: #009688; /* Teal-like green */
+      padding: 10px 20px;
+      display: inline-flex;
+      align-items: center;
+      /* margin-left: 11px; */
+      gap: 20px;
+    }
+
+    .chevron {
+      color: white;
+      font-size: 24px;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .chevron:hover {
+      opacity: 0.8;
+    }
+
+
+
+     .news-img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .poll-box {
+      border: 1px solid #ddd;
+      padding: 1rem;
+    }
+    .poll-title {
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .poll-option {
+      display: block;
+      margin: 0.5rem 0;
+    }
+
+
+
+
+     .news-title {
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .news-img {
+      width: 100%;
+      /* height: 150px; */
+      object-fit: cover;
+    }
+    .tab-content {
+      max-height: 400px;
+      overflow-y: auto;
+    }
+    .tab-item {
+      border-left: 3px solid green;
+      padding-left: 10px;
+      margin-bottom: 10px;
+    }
+    .active-tab {
+      color: red;
+      border-bottom: 2px solid red;
+      padding-bottom: 5px;
+    }
