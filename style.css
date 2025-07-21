@@ -1,6 +1,4 @@
-body{
-  padding: 0px;
-}
+
     .topbar {
       background-color: #e5e5e5;
       padding: 5px 15px;
@@ -282,11 +280,15 @@ body{
       border: 1px solid white;
       margin-right: 10px !important;
     }
-    .news-item .news-content {
-      /* padding: 15px; */
-    }
+   
     .news-item .news-title {
       font-size: 15px;
       font-weight: bold;
       color: #000;
     }
+
+
+
+
+
+     
