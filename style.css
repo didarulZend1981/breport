@@ -1,4 +1,6 @@
-
+body{
+  padding: 0px;
+}
     .topbar {
       background-color: #e5e5e5;
       padding: 5px 15px;
@@ -231,4 +233,60 @@
       color: red;
       border-bottom: 2px solid red;
       padding-bottom: 5px;
+    }
+
+
+    /* bussiness */
+
+    .header-image {
+      width: 100%;
+      height: auto;
+    }
+    .card-image {
+      width: 100%;
+      height: auto;
+    }
+    .news-container {
+      margin-top: 20px;
+    }
+    .article-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #000;
+    }
+    .article-subtitle {
+      font-size: 16px;
+      color: #6c757d;
+    }
+    .content-body {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #333;
+    }
+
+    .news-item {
+
+     height: 125PX;
+      /* border: 1px solid #ddd; */
+      /* border-radius: 5px; */
+      overflow: hidden;
+      display: flex;
+      justify-content: space-between;
+      gap: 3;
+      padding: 0 auto;
+    }
+    .news-item img {
+      width: 200px!important;
+      height: 60px;
+      object-fit: cover;
+      border: 1px solid white;
+      margin-right: 10px !important;
+    }
+    .news-item .news-content {
+      /* padding: 15px; */
+    }
+    .news-item .news-title {
+      font-size: 15px;
+      font-weight: bold;
+      color: #000;
     }
