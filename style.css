@@ -250,7 +250,54 @@ body {
     }
 
 /* End Play */
+/* start binodon */
+.binodon{
+    height: 530px;
+    /* border: 1px solid red; */
+    font-family: 'Noto Sans Bengali', sans-serif;
 
+   
+}
+
+.binodon p{
+    
+      
+      color: #222;
+      /* padding: 20px; */
+      line-height: 1.1;
+     text-align: justify;
+     overflow: hidden;
+}
+
+.binodon .container{
+ border-left: 10px solid #e6eae9;
+}
+.binodon h2{
+    background-color: #de5b81;
+    padding: 8px;
+    font-size: 15px;
+    color: white;
+    width: 100px;
+    text-align: center;
+    font-weight: 800;
+}
+.binodon h5{
+    color: black;
+     font-weight: 800;
+     font-size: 15px;
+     margin-top: 10px;
+
+}
+
+.binodon .short{
+background-color: #999999;padding: 5px;; size: 10px;
+font-weight: 800;
+width: 150px;
+}
+.binodon img{
+    object-fit: cover;
+}
+/* end binodon */
 
 
 
@@ -259,6 +306,7 @@ body {
     line-height:.2px;
     font-family: 'Noto Sans Bengali', Arial, sans-serif;
      background-color: #f4f4f4;
+     text-align: center;
 }
 
 
