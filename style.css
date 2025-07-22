@@ -300,6 +300,71 @@ width: 150px;
 /* end binodon */
 
 
+/* start arts */
+.arts{
+    height: 500px;
+    /* border: 1px solid red; */
+    padding: 0;
+    margin: 0;
+   
+}
+.art-item{
+    border-right:1px solid #bfbfbf;
+}
+
+.arts h2{
+    border-top: 1px solid #4f4f4f;
+    color: #037a0c;
+    font-size: 20px;
+    padding-top: 5px;
+   
+}
+.arts img{
+    padding-top: 5px;
+    height: 160px;
+    width: 350px;
+    
+
+}
+.arts h5{
+    line-height: 1;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: justify;
+}
+.arts a{
+     /* margin-left: 156px; */
+     width: 106px;
+}
+.art-button{
+    display: flex;
+    justify-content: end;
+}
+.arts .aLine{
+    height: 3px;
+    border-top: 1px solid #919191;
+    border-bottom: 1px solid #505050;
+}
+
+
+
+    .more-news-btn {
+      margin-top: 10px;
+      background-color: #ef8889;
+    }
+.Tourism{
+    
+    padding-top: 25px;
+    margin-top: -10px;
+    border-top: 2px solid #dddddd;
+    border-left: 2px solid #dddddd;
+    border-top-left-radius: 5px;
+
+}
+
+/* end arts */
+
+
 
 
 .contact-info{
